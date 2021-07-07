@@ -2,27 +2,24 @@
 <?php
 include 'navbar.php';
 ?>
-
-<!-- home  page  with html and css -->
-<?php
-echo'<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login-Authentication-System</title>
+    <title>Document</title>
     <style>
         .head
 {
     width:60%;
     backdrop-filter: blur(5px);
     z-index: 100;
-    margin-left: 30%;
+    margin-left: 40%;
     margin-top:60px;
     padding: 30px 30px 30px 30px;
-    height: 450px;
-    background: rgba(255, 255, 255, 0.089);
+    height: 400px;
+    background: rgba(255, 255, 255, 0.061);
 }
 .head .heading
 {
@@ -32,7 +29,7 @@ echo'<!DOCTYPE html>
     flex-direction: column;
     padding:20px;
     background: rgba(255, 255, 255, 0.233);
-   
+  
 
 }
 .head .heading h1
@@ -52,8 +49,10 @@ echo'<!DOCTYPE html>
 }
 .head .heading span
 {
-    color: rgb(255, 0, 0);
+    color: rgb(255, 230, 0);
     font-weight:bold;
+    font-size: 20px;
+  
 }
 .effect1
 {
@@ -123,7 +122,22 @@ echo'<!DOCTYPE html>
     }
 }
 
+.heading a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px;
+    background: rgba(255, 255, 255, 0.445);
+    padding: 15px;
+    border-radius: 35px;
+    transition: 0.4s;
+}
 
+.heading a:hover
+{
+    background: #fff;
+    color: black;
+}
 
     </style>
 </head>
@@ -135,13 +149,18 @@ echo'<!DOCTYPE html>
         <div class="effect4"></div>
         <div class="head">
         <div class="heading">
-            <h1>Login-Authentication-System<br>Projects</h1>
-            <p>This project of login <span>Login-Authentication-System</span> is made by using using three languages HTML,CSS,PHP. For frontend we have used HTML and CSS and for backend or server-side language we have used PHP for DBMS we have used XAMPP and PHPMYADMIN to store the details of logged in person. As well as the password is been stored in hashed form for security purpose. It is fully working Login-Authentication-System</p>
+            <h1>Contact Us</h1>
+            <p>Hope you like our project. If you wanted to connect with our teams for futher conversion  pls send mail us on the below link.</p>
+            <span>Our mail is always open for everone</span>
+            <a href="mailto:shubhambawankar735@gmail.com">Mail-Connect</a>
         </div>
         </div>
-        </div>  
 </body>
 </html>
-';
 
-?>
+
+
+
+
+
+

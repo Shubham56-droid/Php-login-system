@@ -3,26 +3,30 @@
 include 'navbar.php';
 ?>
 
-<!-- home  page  with html and css -->
-<?php
-echo'<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login-Authentication-System</title>
+    <title>Document</title>
     <style>
-        .head
+body
+{
+    height:150vh;
+    width:100%;
+    background:red;
+}
+.head
 {
     width:60%;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(4px);
     z-index: 100;
     margin-left: 30%;
     margin-top:60px;
     padding: 30px 30px 30px 30px;
-    height: 450px;
-    background: rgba(255, 255, 255, 0.089);
+    height: 650px;
+    background: rgba(255, 255, 255, 0.123);
 }
 .head .heading
 {
@@ -123,11 +127,10 @@ echo'<!DOCTYPE html>
     }
 }
 
-
-
     </style>
 </head>
 <body>
+    
     <div class="home">
         <div class="effect1"></div>
         <div class="effect2"></div>
@@ -135,13 +138,13 @@ echo'<!DOCTYPE html>
         <div class="effect4"></div>
         <div class="head">
         <div class="heading">
-            <h1>Login-Authentication-System<br>Projects</h1>
-            <p>This project of login <span>Login-Authentication-System</span> is made by using using three languages HTML,CSS,PHP. For frontend we have used HTML and CSS and for backend or server-side language we have used PHP for DBMS we have used XAMPP and PHPMYADMIN to store the details of logged in person. As well as the password is been stored in hashed form for security purpose. It is fully working Login-Authentication-System</p>
+            <h1>Project Information</h1>
+            <p>This project is had both frontend and backend functionality.In fornt-end we have used <span>HTML</span> and <span>CSS</span> with awesome <span>glassmorphisms effect</span>.It has animation,creative navbar as well as hover effects.For the backend we have used PHP as server side language.</p>
+            <p>For backend we used php with <span>XAMPP</span> which help us for  web server solution. With the help of <span>Apache server</span> and <span>MySQL</span> we add the detailed entered in login and signup into database and table. Also the passspwrd has been converted to hashed form to improvise security.</p>
+            <br>
+            <p>We have used consept to "session" to created login and logout which is used in php rather than the consept of "cookies" since we do not store sensitive cresendentials on cookies. Sql commands are used to store database on phpmyadmin. </p>
         </div>
         </div>
-        </div>  
+
 </body>
 </html>
-';
-
-?>

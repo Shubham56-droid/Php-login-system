@@ -3,25 +3,23 @@
 include 'navbar.php';
 ?>
 
-<!-- home  page  with html and css -->
-<?php
-echo'<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login-Authentication-System</title>
+    <title>Document</title>
     <style>
-        .head
+    .head
 {
     width:60%;
     backdrop-filter: blur(5px);
     z-index: 100;
     margin-left: 30%;
-    margin-top:60px;
+    margin-top:10px;
     padding: 30px 30px 30px 30px;
-    height: 450px;
+    height: 95%;
     background: rgba(255, 255, 255, 0.089);
 }
 .head .heading
@@ -123,11 +121,29 @@ echo'<!DOCTYPE html>
     }
 }
 
+table
+{
+    border-collapse: separate;
+  border-spacing: 15px;
+}
+table, th, td {
+    background: rgba(255, 255, 255, 0.424);
+    font-size: 18px;
+    text-align: center;
+}
+ th:hover, td:hover {
+    background: rgba(253, 253, 253, 0.883);
+ 
+}
 
-
+th, td 
+{
+    padding: 15px;
+}
     </style>
 </head>
 <body>
+    
     <div class="home">
         <div class="effect1"></div>
         <div class="effect2"></div>
@@ -135,13 +151,36 @@ echo'<!DOCTYPE html>
         <div class="effect4"></div>
         <div class="head">
         <div class="heading">
-            <h1>Login-Authentication-System<br>Projects</h1>
-            <p>This project of login <span>Login-Authentication-System</span> is made by using using three languages HTML,CSS,PHP. For frontend we have used HTML and CSS and for backend or server-side language we have used PHP for DBMS we have used XAMPP and PHPMYADMIN to store the details of logged in person. As well as the password is been stored in hashed form for security purpose. It is fully working Login-Authentication-System</p>
+            <h1>Our Team</h1>
+            <p>This Project-Login Authentication System is a team project. We are group of four student evenly destributed our work according to our  abilities..</p>
+            <br>
+            <h2 style="color: rgb(255, 0, 51);">Team members and UID</h2>
+            <table style="width:100%">
+                <tr>
+                    <th>Members Name</th>
+                    <th>Members UIDs</th>
+                </tr>
+                <tr>
+                    <td>Shubham Bawankar</td>
+                    <td>20BCS7409</td>
+                </tr>
+                <tr>
+                    <td>Drishti Rawat</td>
+                    <td>20BCS7415</td>
+                </tr>
+                <tr>
+                    <td>Ankit Kumar</td>
+                    <td>20BCS7519</td>
+                </tr>
+                <tr>
+                    <td>Ujjwal Shukla</td>
+                    <td>20BCS7449</td>
+                </tr>
+            </table>
         </div>
         </div>
-        </div>  
+        </div>
 </body>
 </html>
-';
 
-?>
+
